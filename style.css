@@ -37,7 +37,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -66,6 +66,7 @@ textarea{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
+  font-size: 24px;
   color: white;
 }
 
@@ -82,3 +83,9 @@ textarea{
   text-shadow: white 1px 1px;
   font-weight: bold;
 }
+
+.col-sm-8 {
+    font-size: 24px;
+}
+
+/* add media query pad/resize save buttons */
