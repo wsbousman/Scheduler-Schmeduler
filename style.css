@@ -35,7 +35,8 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
+  /* pre wrap included in starter code but was causing strange formatting issues with the first button? Commented it out and they all render properly. */
   height: 80px;
   border-top: 1px solid white;
 }
@@ -76,16 +77,18 @@ textarea{
 }
 
 .display-3 {
-  text-shadow: white 1px 1px;
+  text-shadow: grey 1px 1px;
 }
 
 .lead {
-  text-shadow: white 1px 1px;
+  text-shadow: grey 1px 1px;
   font-weight: bold;
+  font-size: 28px;
 }
 
 .col-sm-8 {
     font-size: 24px;
 }
+
 
 /* add media query pad/resize save buttons */
