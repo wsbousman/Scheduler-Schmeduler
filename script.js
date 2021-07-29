@@ -17,6 +17,7 @@ let def6 = localStorage.row6 || ["Enter new event here."];
 let def7 = localStorage.row7 || ["Enter new event here."];
 let def8 = localStorage.row8 || ["Enter new event here."];
 let def9 = localStorage.row9 || ["Enter new event here."];
+let Present = new Date().getHours();
 
 // set default input box prompt/display saved content from local storage
 document.getElementById("row1").placeholder = def1;
@@ -30,6 +31,23 @@ document.getElementById("row8").placeholder = def8;
 document.getElementById("row9").placeholder = def9;
 
 // change color of input box when time passes
+
+function setColor() {
+if (Present = 9) {
+    document.getElementById("row1").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row2").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row3").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row4").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row5").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row6").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row7").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row8").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
+};
+};
+
+//else if (Present > 12 && Present < 17) {
+  //  document.body.style.backgroundColor = "red";};};
 
 // save to local storage functions
 setFunction1 = function(event) {
@@ -81,3 +99,9 @@ set8.addEventListener("click", setFunction8);
 set9.addEventListener("click", setFunction9);
 
 // function calls
+setColor ();
+
+/*
+red: #ff3333
+green: #33cc33
+*/
