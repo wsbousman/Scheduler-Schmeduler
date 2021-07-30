@@ -30,10 +30,9 @@ document.getElementById("row7").placeholder = def7;
 document.getElementById("row8").placeholder = def8;
 document.getElementById("row9").placeholder = def9;
 
-// change color of input box when time passes
-
+// change color of input boxes as time passes
 function setColor() {
-if (Present = 9) {
+if (Present == 9) {
     document.getElementById("row1").style.backgroundColor = "#ff3333"; 
     document.getElementById("row2").style.backgroundColor = "#33cc33"; 
     document.getElementById("row3").style.backgroundColor = "#33cc33"; 
@@ -44,10 +43,59 @@ if (Present = 9) {
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
+if (Present == 10) {
+    document.getElementById("row2").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row3").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row4").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row5").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row6").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row7").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row8").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-
-//else if (Present > 12 && Present < 17) {
-  //  document.body.style.backgroundColor = "red";};};
+if (Present == 11) {
+    document.getElementById("row3").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row4").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row5").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row6").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row7").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row8").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
+};
+if (Present == 12) {
+    document.getElementById("row4").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row5").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row6").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row7").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row8").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
+};
+if (Present == 13) {
+    document.getElementById("row5").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row6").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row7").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row8").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
+};
+if (Present == 14) {
+    document.getElementById("row6").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row7").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row8").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
+};
+if (Present == 15) {
+    document.getElementById("row7").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row8").style.backgroundColor = "#33cc33"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
+};
+if (Present == 16) {
+    document.getElementById("row8").style.backgroundColor = "#ff3333"; 
+    document.getElementById("row9").style.backgroundColor = "#33cc33"; 
+};
+if (Present == 17) {
+    document.getElementById("row9").style.backgroundColor = "#ff3333"; 
+};
+};
 
 // save to local storage functions
 setFunction1 = function(event) {
