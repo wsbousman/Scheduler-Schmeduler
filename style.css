@@ -88,6 +88,7 @@ textarea{
     font-size: 24px;
     background-color: rgb(173, 173, 173); 
 }
+
 @include media-breakpoint-up(sm) {
     .col-sm-1 {
         font-size: 20px;

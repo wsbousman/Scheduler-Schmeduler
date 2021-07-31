@@ -32,7 +32,7 @@ document.getElementById("row9").placeholder = def9;
 
 // change color of input boxes as time passes
 function setColor() {
-if (Present == 9) {
+if (9 <= Present&&Present < 10) {
     document.getElementById("row1").style.backgroundColor = "#ff3333"; 
     document.getElementById("row2").style.backgroundColor = "#33cc33"; 
     document.getElementById("row3").style.backgroundColor = "#33cc33"; 
@@ -43,7 +43,7 @@ if (Present == 9) {
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 10) {
+if (10 <= Present&&Present < 11) {
     document.getElementById("row2").style.backgroundColor = "#ff3333"; 
     document.getElementById("row3").style.backgroundColor = "#33cc33"; 
     document.getElementById("row4").style.backgroundColor = "#33cc33"; 
@@ -53,7 +53,7 @@ if (Present == 10) {
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 11) {
+if (11 <= Present&&Present < 12) {
     document.getElementById("row3").style.backgroundColor = "#ff3333"; 
     document.getElementById("row4").style.backgroundColor = "#33cc33"; 
     document.getElementById("row5").style.backgroundColor = "#33cc33"; 
@@ -62,7 +62,7 @@ if (Present == 11) {
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 12) {
+if (12 <= Present&&Present < 13) {
     document.getElementById("row4").style.backgroundColor = "#ff3333"; 
     document.getElementById("row5").style.backgroundColor = "#33cc33"; 
     document.getElementById("row6").style.backgroundColor = "#33cc33"; 
@@ -70,31 +70,32 @@ if (Present == 12) {
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 13) {
+if (13 <= Present&&Present < 14) {
     document.getElementById("row5").style.backgroundColor = "#ff3333"; 
     document.getElementById("row6").style.backgroundColor = "#33cc33"; 
     document.getElementById("row7").style.backgroundColor = "#33cc33"; 
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 14) {
+if (14 <= Present&&Present < 15) {
     document.getElementById("row6").style.backgroundColor = "#ff3333"; 
     document.getElementById("row7").style.backgroundColor = "#33cc33"; 
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 15) {
+if (15 <= Present&&Present < 16) {
     document.getElementById("row7").style.backgroundColor = "#ff3333"; 
     document.getElementById("row8").style.backgroundColor = "#33cc33"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 16) {
+if (16 <= Present&&Present < 17) {
     document.getElementById("row8").style.backgroundColor = "#ff3333"; 
     document.getElementById("row9").style.backgroundColor = "#33cc33"; 
 };
-if (Present == 17) {
+if (17 <= Present&&Present < 18) {
     document.getElementById("row9").style.backgroundColor = "#ff3333"; 
 };
+// close function setColor
 };
 
 // save to local storage functions
@@ -148,8 +149,3 @@ set9.addEventListener("click", setFunction9);
 
 // function calls
 setColor ();
-
-/*
-red: #ff3333
-green: #33cc33
-*/
