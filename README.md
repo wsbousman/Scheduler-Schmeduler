@@ -7,5 +7,7 @@
  Local storage automatically checked for definition; if undefined, input box content set to "Enter new event here" to guarantee clarity to users. 
  
  Code is overall quite repetitive, which I do not love, but it is certainly simple which should make it robust. 
+
+ For reasons that remain unclear to me, the undefined check and "Enter new event here" function perfectly when loaded locally by my browser, but not when loaded on GitHub Pages. Will make note of this with a tutor and troubleshoot. 
  
  Stonks meme used as header background to inspire busy businesspeople to do maximum businessing. 
